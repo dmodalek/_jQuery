@@ -7,12 +7,9 @@
 
 (function($){
 
-
     var _old = $.unique;
 
-
     $.unique = function(arr){
-
 
         // do the default behavior only if we got an array of elements
         if (!!arr[0].nodeType){
